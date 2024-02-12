@@ -1,0 +1,32 @@
+How does reinforcement learning work?
+The steps are: 
+Start in a state.
+Take an action.
+Receive a reward or penalty from the environment.
+Observe the new state of the environment.
+Update your policy to maximize future rewards.
+
+Reinforcement Learning nature is much more dynamic where as Supervised Learning is much more static
+
+It is used to solve interacting problems where the data observed up to time t is considered to decide which action to take at time t + 1. 
+
+Terminologies in RL are:
+Agent – is the sole decision-maker and learner
+
+Environment – a physical world where an agent learns and decides the actions to be performed
+
+Action – a list of action which an agent can perform
+
+State – the current situation of the agent in the environment
+
+Reward – For each selected action by agent, the environment gives a reward. It’s usually a scalar value and nothing but feedback from the environment
+
+Policy – the agent prepares strategy(decision-making) to map situations to actions.
+
+Value Function – The value of state shows up the reward achieved starting from the state until the policy is executed
+
+Model – Every RL agent doesn’t use a model of its environment. The agent’s view maps state-action pairs probability distributions over the states
+
+The working of reinforcement learning is based upon:
+	In reinforcement learning, there isn’t any answer and the reinforcement agent decides what to be done to perform the required task. As the training dataset isn’t available, the agent had to learn from its experience.
+ 	It’s all about compiling the decisions in a sequential manner
